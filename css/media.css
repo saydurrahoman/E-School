@@ -1,0 +1,254 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* header start */
+header{
+    padding: 0;
+}
+.logo{
+    width: 180px;
+}
+.menu ul li a {
+    padding: 0 10px 8px !important;
+}
+/* header end */
+/* banner start */
+.banner{
+    padding-bottom: 60px;
+}
+.b-text{
+    text-align: center;
+}
+.bh1{
+    padding: 0;
+    font-size: 30px;
+    line-height: 45px;
+}
+.bp2{
+    padding: 0;
+    line-height: 30px;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0;
+}
+/* banner end */
+/* feature start */
+.s-feature{
+    margin: 30px 0 0;
+    padding-bottom: 60px;
+}
+.p-c{
+    padding-bottom: 60px;
+}
+/* feature end */
+/* courses start */
+.sc-courses{
+    margin: 40px 0 0;
+    padding: 20px 15px 25px;
+}
+.scli:not(:last-child){
+    margin-right: 0;
+}
+.sc-left ul li img,
+.sc-right ul li img{
+    width: 20px;
+} 
+.sc-left ul li span,
+.sc-right ul li span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.c-h1{
+    font-size: 30px;
+}
+/* courses ent */
+/* testimoni start */
+.testimoni{
+    padding-bottom: 60px;
+}
+.t_img{
+    padding: 0 50px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/* testimoni end */
+/* footer top start */
+.footer-top{
+    padding: 55px 0 20px;
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 35px;
+    padding-right: 0px;
+}
+.ft_link{
+    margin-bottom: 35px;
+}
+/* footer top end */
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+header{
+    padding: 0;
+}
+.logo{
+    width: 190px;
+}
+.menu ul li a {
+    padding: 0 10px 8px !important;
+}
+/* header end */
+/* banner start */
+.banner{
+    padding-bottom: 60px;
+}
+.b-text{
+    text-align: center;
+}
+.bh1{
+    padding: 0 100px;
+    font-size: 30px;
+    line-height: 45px;
+}
+.bp2{
+    padding: 0 50px;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 60px;
+}
+/* banner end */
+/* feature start */
+.s-feature{
+    margin: 30px 0 0;
+    padding-bottom: 60px;
+}
+.p-c{
+    padding-bottom: 60px;
+}
+/* feature end */
+/* courses start */
+.c-h1{
+    font-size: 30px;
+}
+.sc-courses{
+    margin: 40px 70px 0;
+}
+/* courses ent */
+/* testimoni start */
+.testimoni{
+    padding-bottom: 60px;
+}
+.t_img{
+    padding: 0 120px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/* testimoni end */
+/* footer top start */
+.footer-top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 40px;
+    padding-right: 70px;
+    padding-left: 8x0px;
+}
+/* footer top end */
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+/* header start */
+.menu ul li a {
+padding: 0 10px 8px !important;
+}
+/* header end */
+/* banner start */
+.b-text{
+    text-align: center;
+}
+.bh1{
+    padding: 0 140px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.bp2{
+padding: 0 110px;
+}
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 100px;
+}
+/* banner end */
+/* feature start */
+.p-c{
+    padding-bottom: 80px;
+}
+/* feature end */
+/* courses start */
+.sc-courses{
+    margin: 40px 150px 0;
+}
+/* courses end */
+/* footer top start */
+.footer-top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom: 40px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+/* footer top end */
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/* courses start */
+.sc-courses{
+    padding: 20px 15px 25px;
+}
+.scli:not(:last-child){
+    margin-right: 0;
+}
+.sc-left ul li img,
+.sc-right ul li img{
+    width: 20px;
+} 
+.sc-left ul li span,
+.sc-right ul li span{
+    font-size: 15px;
+    font-weight: 400;
+}
+/* courses end */
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+}
+
+ /* Extra Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+/* banner start */
+.bh1{
+    padding: 0 25px 0 0;
+
+}
+/* banner end */
+/* feature start */
+.s-feature{
+    padding: 65px 0 60px;
+}
+/* feature end */
+/* footer start */
+.ft_details{
+    padding-right: 130px;
+}
+/* footer end */
+}
